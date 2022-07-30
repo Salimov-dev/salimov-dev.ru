@@ -1,0 +1,60 @@
+body {
+	font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+    font-size: 16px;
+	line-height: 1.5;
+    color: #313131;
+	padding: 20px;
+}
+
+/* Utility */
+
+.none {
+	display: none !important;
+}
+
+/* Grid */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto 20px auto;
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    padding: 25px;
+}
+
+.containerHeading {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+.btn-openResume {
+    display: inline-block;
+    padding: 13px 20px;
+    font-size: 20px;
+    border: 1px solid #FFFFFF;
+    transition: all 0.2s ease-in;
+}
+
+.btn-openResumeFooter {
+    padding: 20px 30px 0 30px;
+}
+
+a:visited {
+	color: #313131;
+}
+
+.btn-openResume:visited {
+	color: white;
+}
+
+.btn-openResume:hover {
+	color: black;
+    background-color: white;
+}
+
+
+
+

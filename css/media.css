@@ -1,0 +1,127 @@
+@media (max-width: 991px) {
+
+
+    .header-myNameBlock {
+        padding: 10px 50px 40px;
+    }
+    .header-myName {
+        margin: 50px 0 10px 0;
+        font-size: 30px;
+    }
+
+    .header-myPosition {
+        font-size: 11px;
+    }
+
+    .header-row {
+        justify-content: space-around;
+    }
+
+    .btn-openResume {
+        font-size: 15px !important;
+    }
+
+    .btn-openResumeFooter {
+        padding: 25px 30px 0 30px !important;
+    }
+
+}
+
+@media (max-width: 859px) {
+    .header-myPhoto {
+        padding-left: 30px;
+        margin-bottom: -12.5px;
+        text-align: center;
+    }
+    .header-row {
+        align-items: unset;
+        flex-direction: column;
+    }
+    .btn-openResume {
+        font-size: 15px;
+    }
+    .header-myName {
+        margin: 20px 0 10px 0;
+    }
+    .btn-openResume {
+        font-size: 15px !important;
+    }
+    .header-myNameBlock {
+        padding: 0 50px 25px;
+    }
+    .footer-name {
+        font-size: 20px;
+    }
+    .footer-post {
+        font-size: 11px;
+    }
+    .footer-contact {
+        line-height: 15px;
+        line-height: 130%;
+    }
+    .btn-openResumeFooter {
+        padding: 20px 30px 0 30px !important;
+    }
+}
+
+@media (max-width: 719px) {
+    .footer-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer-contact {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-name {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-post {
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer-row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .btn-openResumeFooter {
+        padding: 10px 20px 10px 20px !important;
+    }
+    
+}
+
+@media (max-width: 639px) {
+    .hard-skills-list {
+        flex-direction: column;
+    }
+    .hard-skills-list ul {
+        padding-right: 0;
+    }
+    ul + * {
+        padding-top: 8px;
+    }
+
+}
+    
+@media (max-width: 449px) {
+    .header-myName {
+        margin: 20px 0 20px 0;
+    }
+    .header-myPosition {
+        padding: 0 30px 0 30px;
+    }
+    .btn-openResume {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 340px) {
+    .btn-openResume {
+        padding: 13px 30px;
+    }
+    .btn-openResume {
+        font-size: 10px !important;
+    }
+}
