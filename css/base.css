@@ -55,6 +55,10 @@ a:visited {
     background-color: white;
 }
 
+.github a {
+    text-decoration: underline;
+}
+
 
 
 
